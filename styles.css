@@ -5,7 +5,7 @@
 
 body{
     background-color: #F28095;
-    margin: 0px;
+    margin: 0;
 }
 
 header, footer{
@@ -34,7 +34,7 @@ h1{
     background-color: #fdfdfd;
     display: grid;
     grid-template-columns: 184px 1fr;
-    gap: 0px 16px;
+    gap: 0 16px;
 }
 
 nav{
@@ -66,13 +66,13 @@ main{
     padding-bottom: 16px;
 }
 
-main img{  /**/
+main img{  
     float: left;
 }
 
 main p, main ul{
     display: inline-block;
-    width: 50%; /**/
+    width: 50%; 
 }
 
 main p{
@@ -92,7 +92,7 @@ footer{
     font-style: italic;
     text-align: center;
     background-color: #afaeb4;
-    padding: 8px 0px;
+    padding: 8px 0;
 }
 
 
